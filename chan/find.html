@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find My Major</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="find">
+  <header class="site-header">
+    <div class="inner">
+      <a class="logo" href="index.html">Chan</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="find.html" aria-current="page">Find My Major</a>
+        <a href="majors.html">Majors</a>
+        <a href="universities.html">Universities</a>
+        <a href="about.html">About</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch between light and dark mode">Dark mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Find my major</h1>
+    <p class="lead">Select as many as you like in each group.</p>
+
+    <form id="find-form" novalidate>
+      <fieldset>
+        <legend>1. Which subjects are you good at?</legend>
+        <div id="subjects-list" class="chip-group"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. What are you interested in?</legend>
+        <div id="interests-list" class="chip-group"></div>
+      </fieldset>
+
+      <p id="error" class="error" role="alert" hidden></p>
+      <button type="submit" class="button">Show my majors</button>
+    </form>
+  </main>
+
+  <footer>Chan – INFO 250 Web Development I, Fall 2026</footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

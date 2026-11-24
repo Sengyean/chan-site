@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="majors">
+  <header class="site-header">
+    <div class="inner">
+      <a class="logo" href="index.html">Chan</a>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="find.html">Find My Major</a>
+        <a href="majors.html" aria-current="page">Majors</a>
+        <a href="universities.html">Universities</a>
+        <a href="about.html">About</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch between light and dark mode">Dark mode</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Majors</h1>
+    <p class="lead">Open a major to see what it is, what you will study, and what you will need to take.</p>
+
+    <div class="filters">
+      <label class="muted" for="search">Search majors<br><input id="search" type="search" placeholder="e.g. Law"></label>
+    </div>
+
+    <div id="majors-list"></div>
+  </main>
+
+  <footer>Chan – INFO 250 Web Development I, Fall 2026</footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Chan logo">
+  <!-- Background -->
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="#1B2A4A"/>
+  <!-- Moon -->
+  <circle cx="256" cy="286" r="150" fill="#D9DEE5"/>
+  <!-- Craters -->
+  <circle cx="196" cy="300" r="30" fill="#B9C0CB"/>
+  <circle cx="310" cy="350" r="22" fill="#B9C0CB"/>
+  <circle cx="250" cy="384" r="13" fill="#B9C0CB"/>
+  <circle cx="330" cy="272" r="12" fill="#B9C0CB"/>
+  <!-- Graduation cap -->
+  <g transform="translate(256 140) scale(1.3)">
+    <path d="M-80 2 L-80 46 Q0 72 80 46 L80 2 Z" fill="#A9A08A"/>
+    <path d="M0 -50 L120 0 L0 50 L-120 0 Z" fill="#F7F3E8"/>
+    <circle cx="0" cy="0" r="7" fill="#E8913A"/>
+    <path d="M0 0 L100 6 L100 58" fill="none" stroke="#E8913A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M92 56 L108 56 L112 86 L88 86 Z" fill="#E8913A"/>
+  </g>
+</svg>
